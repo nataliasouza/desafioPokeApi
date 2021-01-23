@@ -1,0 +1,50 @@
+.Navbar {
+    padding: 20px 20px;
+    background: #2660a4;
+    color: white; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+.pokemons{
+    
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    
+}
+
+.tudo{
+    background-color: #e6c329;
+    color: white;
+    padding: 15px 25px;
+    margin-right:5px;
+
+}
+.meu{
+    background-color: #31924f;
+    color: white;
+    padding: 15px 25px;
+    margin-left:5px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #ffff;;
+}
+  
+a:hover, a:active {
+    background-color: #815c93;
+}
+
+.imgnav{
+
+
+
+}
+.campoBusca{
+    margin-left: 15px;   
+    vertical-align: bottom; 
+  
+}
+

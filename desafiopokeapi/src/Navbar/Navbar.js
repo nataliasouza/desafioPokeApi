@@ -1,13 +1,24 @@
-import React from 'react'
-import logo from '../Navbar/logo_pokemon.png'
+import React from 'react';
+import './style.css';
+import logo from './logo.png';
+import pokes from './pokes.png';
 
-export default function Navbar(){
-    return(
-       <nav className='menu'>
-           <img className="logo" src={logo} alt={"LogoPokemon"}/>
-           <div className="todosPokemons"><a href="todosPokemons.html">Todos Pokemons</a></div>
-           <div className="meusPokemons"><a href="meusPokemons.html">Meus Pokemons</a></div>
-           <input type="text" className="campoBusca" placeholder="Buscar..." />
-       </nav>
+function Navbar() {
+    return (
+        <div className="Navbar">
+            <div className = "imgnav">
+                <img src={logo} alt='logoapp'width="15%"/>
+                <img src={pokes} alt='pokemons' width="10%"/>
+            </div>
+            <div className='pokemons'>
+                <a className='tudo' href="todosPokemons.html">Todos Pokemons</a>
+                <a className='meu' href="meusPokemons.html">Meus Pokemons</a>
+            </div>
+            <div className="busca">
+                <input type="text" className="campoBusca" placeholder="Buscar..." />
+            </div>
+        </div>
     );
 }
+
+export default Navbar;
