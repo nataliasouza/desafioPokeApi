@@ -3,8 +3,7 @@
     background: #2660a4;
     color: white; 
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 .pokemons{ 
     text-align: center;
@@ -46,4 +45,3 @@ a:active {
     margin: 20px;   
     vertical-align: bottom; 
 }
-

@@ -18,21 +18,25 @@ function Card({ pokemon }) {
                             <div className="card_type">
                                 {type.type.name}
                             </div>
+                            
                         )
                     })
-                }
+                }   
+            </div>
+            <div className="btn_capturar">
+                <button className="capturar">Capturar</button>
             </div>
             <div className="card_info">
                 <div className="card_data card_data_weight">
-                    <p className="title">Weight</p>
+                    <p className="title">Peso</p>
                     <p>{pokemon.weight}</p>
                 </div>
                 <div className="card_data card_data_height">
-                    <p className="title">Height</p>
+                    <p className="title">Altura</p>
                     <p>{pokemon.height}</p>
                 </div>
                 <div className="card_data card_data_ability">
-                    <p className="title">Ability</p>
+                    <p className="title">Habilidade</p>
                     <p>{pokemon.abilities[0].ability.name}</p>
                 </div>
             </div>

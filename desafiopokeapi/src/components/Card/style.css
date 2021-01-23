@@ -11,7 +11,6 @@ p {
     padding-left: 50px; 
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
 
 .card {
@@ -21,7 +20,13 @@ p {
 }
 
 .card_img {
+    float: left;
     text-align: center;
+}
+
+.card_img img {
+    width:150px;
+    height: 150px;
 }
 
 .card_types {
@@ -40,7 +45,6 @@ p {
 
 .card_name {
     text-align: center;
-    text-transform: capitalize;
     font-weight: 800;
 }
 
@@ -55,5 +59,15 @@ p {
 
 .card_data .title {
     font-weight: 700;
-    text-align: center;    
+    text-align: center;  
+}
+
+.capturar{
+    float: right;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #815c93;
+    color: #fff;
+    font-weight: 800;
 }
