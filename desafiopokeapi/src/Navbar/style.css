@@ -3,29 +3,33 @@
     background: #2660a4;
     color: white; 
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
-.pokemons{
-    
+.pokemons{ 
     text-align: center;
     text-decoration: none;
-    display: flex;
-    
+    display: flex;  
 }
 
 .tudo{
-    background-color: #e6c329;
-    color: white;
-    padding: 15px 25px;
-    margin-right:5px;
-
+    background-color:  #0b90a7;
+    padding: 15px 20px;
+    margin-right:10px;
+    border-radius: 15px;
 }
+
+.tudo:hover {
+    background-color: #03425f;
+}
+
 .meu{
-    background-color: #31924f;
-    color: white;
-    padding: 15px 25px;
-    margin-left:5px;
+    background-color: #cfb41a;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+
+.meu:hover {
+    background-color: #9c8502;
 }
 
 a:link, a:visited {
@@ -33,18 +37,11 @@ a:link, a:visited {
     color: #ffff;;
 }
   
-a:hover, a:active {
+a:active {
     background-color: #815c93;
 }
 
-.imgnav{
-
-
-
-}
 .campoBusca{
-    margin-left: 15px;   
+    margin: 20px;   
     vertical-align: bottom; 
-  
 }
-
